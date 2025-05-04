@@ -9,6 +9,7 @@ function App() {
   return (
     <>
     <div className="container">
+      <h1>Search Real time Weather</h1>
       <Search setCityName={setCityName}/>
       {cityName && <CurrentWeather cityName={cityName}/>}
     </div>
