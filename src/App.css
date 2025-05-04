@@ -4,7 +4,7 @@
     min-height: 500px;
     max-height: 800px;
     background: transparent;
-    backdrop-filter: blur(18px);
+    backdrop-filter: blur(38px);
     border: 2px solid rgba(6, 35, 57, .5);
     padding: 20px 20px;
     border-radius: 30px;
@@ -14,6 +14,10 @@
     font-size: 15px;
     
 }
+.container h1{
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
 .searchContainer
 {
     display: flex;
@@ -22,9 +26,9 @@
 }
 input
 {
-    font-size: 25px;
-    padding: 20px;
-    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
     border: 1px solid gray;
     min-width: 100%;
     min-height: 100%;
@@ -35,7 +39,7 @@ button
 {
     background-color: #222;
     border-radius: 50%;
-    padding: 4px 4px;
+    padding: 8px 8px;
     border: 2px solid white;
     cursor: pointer;
 
@@ -105,7 +109,7 @@ footer
 @media (max-width: 650px) {
     input{
         margin-right: 2px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .container
     {
@@ -127,10 +131,13 @@ footer
     {
         gap: 5px;
     }
-.container
-{
-    font-size: 10px;
-}
+    .container
+    {
+        font-size: 10px;
+    }
+    button{
+        padding: 4px 4px;
+    }
 }
 @media (max-width: 400px) {
     input{
@@ -144,6 +151,6 @@ footer
     }
     .container{
         font-size: 8px;
-        width: auto;
+        width: 350px;
     }
 }

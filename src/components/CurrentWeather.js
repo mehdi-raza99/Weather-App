@@ -57,7 +57,7 @@ function CurrentWeather(props) {
                 <div className="column">
                     <AirIcon sx={{fontSize: "2em"}}/>
                     <div>
-                        <h5>{weatherData.windSpeed} Km/h</h5>
+                        <h5>{weatherData.windSpeed} m/s</h5>
                         <h6>Wind Speed</h6>
                     </div>
                 </div>
